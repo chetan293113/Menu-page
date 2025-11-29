@@ -1,0 +1,74 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    color: #333;
+}
+
+header {
+   
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.menu-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu-category {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.menu-category h2 {
+    color: #a00000;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item h3 {
+    font-size: 1.3em;
+    color: #555;
+    margin: 0 0 5px 0;
+    flex-basis: 70%;
+}
+
+}
+
+.price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #a00000;
+    flex-basis: 20%;
+    text-align: right;
+}
